@@ -1,0 +1,43 @@
+body{
+	background-color: teal	;
+	margin: 0;
+}
+
+#wrap {
+	display: table;
+    position: absolute;
+    padding: 0 10%;
+}
+
+
+#content{
+	height: fit-content;
+	text-align: center;
+	width: 90%;
+}	
+
+#nav{
+    width: 30%;
+    background: tan;
+}
+
+#content{
+    width: 70%;
+    background: skyblue;
+}
+
+
+#content li{
+	list-style: none;
+	text-align: center;
+}
+
+p.copyright {
+    width: 70%;
+    float: right;
+    margin: 0 auto;
+}
+.row{
+	display: flex;
+    margin: 0 auto;	
+}
